@@ -1,0 +1,16 @@
+.circle {
+  position: fixed;
+  border-radius: 10000rem;
+  transform: translate(-50%, -50%);
+  background-color: red;
+  width: 0.1rem;
+  height: 0.1rem;
+  animation: scaleAway 1000ms;
+}
+
+@keyframes scaleAway {
+  to {
+    transform: scale(100);
+    opacity: 0;
+  }
+}
